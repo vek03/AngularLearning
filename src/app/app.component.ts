@@ -9,4 +9,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'first-angular-project';
+
+  onLogoClick(){
+    alert('Hello, World!')
+  }
+
+  onKeyUp(newTitle:string){
+    this.title = newTitle;
+  }
 }
